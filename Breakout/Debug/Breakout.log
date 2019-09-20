@@ -1,0 +1,35 @@
+﻿main.obj : error LNK2019: unresolved external symbol _SDL_GetError referenced in function "bool __cdecl init(void)" (?init@@YA_NXZ)
+Texture.obj : error LNK2001: unresolved external symbol _SDL_GetError
+main.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function "bool __cdecl init(void)" (?init@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "void __cdecl close(void)" (?close@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_SetHint referenced in function "bool __cdecl init(void)" (?init@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function "bool __cdecl init(void)" (?init@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function _SDL_main
+main.obj : error LNK2019: unresolved external symbol _SDL_DestroyRenderer referenced in function "void __cdecl close(void)" (?close@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "bool __cdecl init(void)" (?init@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "void __cdecl close(void)" (?close@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _IMG_Init referenced in function "bool __cdecl init(void)" (?init@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol _IMG_Quit referenced in function "void __cdecl close(void)" (?close@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _TTF_Init referenced in function "bool __cdecl init(void)" (?init@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol _TTF_Quit referenced in function "void __cdecl close(void)" (?close@@YAXXZ)
+Texture.obj : error LNK2019: unresolved external symbol _SDL_MapRGB referenced in function "public: bool __thiscall Texture::loadfromfile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *)" (?loadfromfile@Texture@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUSDL_Renderer@@@Z)
+Texture.obj : error LNK2019: unresolved external symbol _SDL_FreeSurface referenced in function "public: bool __thiscall Texture::loadFromRendererText(struct _TTF_Font *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *,struct SDL_Color)" (?loadFromRendererText@Texture@@QAE_NPAU_TTF_Font@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUSDL_Renderer@@USDL_Color@@@Z)
+Texture.obj : error LNK2019: unresolved external symbol _SDL_SetColorKey referenced in function "public: bool __thiscall Texture::loadfromfile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *)" (?loadfromfile@Texture@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUSDL_Renderer@@@Z)
+Texture.obj : error LNK2019: unresolved external symbol _SDL_CreateTextureFromSurface referenced in function "public: bool __thiscall Texture::loadFromRendererText(struct _TTF_Font *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *,struct SDL_Color)" (?loadFromRendererText@Texture@@QAE_NPAU_TTF_Font@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUSDL_Renderer@@USDL_Color@@@Z)
+Texture.obj : error LNK2019: unresolved external symbol _SDL_SetTextureColorMod referenced in function "public: void __thiscall Texture::setColor(unsigned char,unsigned char,unsigned char)" (?setColor@Texture@@QAEXEEE@Z)
+Texture.obj : error LNK2019: unresolved external symbol _SDL_SetTextureAlphaMod referenced in function "public: void __thiscall Texture::setAlpha(unsigned char)" (?setAlpha@Texture@@QAEXE@Z)
+Texture.obj : error LNK2019: unresolved external symbol _SDL_SetTextureBlendMode referenced in function "public: void __thiscall Texture::setBlendMode(enum SDL_BlendMode)" (?setBlendMode@Texture@@QAEXW4SDL_BlendMode@@@Z)
+Texture.obj : error LNK2019: unresolved external symbol _SDL_RenderCopyEx referenced in function "public: void __thiscall Texture::render(int,int,struct SDL_Rect *,double,struct SDL_Point *,enum SDL_RendererFlip)" (?render@Texture@@QAEXHHPAUSDL_Rect@@NPAUSDL_Point@@W4SDL_RendererFlip@@@Z)
+Texture.obj : error LNK2019: unresolved external symbol _SDL_DestroyTexture referenced in function "public: void __thiscall Texture::free(void)" (?free@Texture@@QAEXXZ)
+Texture.obj : error LNK2019: unresolved external symbol _IMG_Load referenced in function "public: bool __thiscall Texture::loadfromfile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *)" (?loadfromfile@Texture@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUSDL_Renderer@@@Z)
+Texture.obj : error LNK2019: unresolved external symbol _TTF_RenderText_Blended referenced in function "public: bool __thiscall Texture::loadFromRendererText(struct _TTF_Font *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *,struct SDL_Color)" (?loadFromRendererText@Texture@@QAE_NPAU_TTF_Font@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUSDL_Renderer@@USDL_Color@@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\SDL2_libs\SDL2-2.0.9\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SDL2_libs\SDL2-2.0.9\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SDL2_libs\SDL2_image-2.0.4\lib\x64\SDL2_image.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SDL2_libs\SDL2_ttf-2.0.14\lib\x64\SDL2_ttf.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SDL2_libs\SDL2_mixer-2.0.4\lib\x64\SDL2_mixer.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\USER\source\repos\Breakout\Debug\Breakout.exe : fatal error LNK1120: 28 unresolved externals

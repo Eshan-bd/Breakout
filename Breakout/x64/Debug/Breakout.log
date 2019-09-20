@@ -1,0 +1,8 @@
+﻿  Paddle.cpp
+C:\Users\USER\source\repos\Breakout\Breakout\src\Paddle.cpp(17,51): warning C4244:  'argument': conversion from 'int' to 'float32', possible loss of data
+C:\Users\USER\source\repos\Breakout\Breakout\src\Paddle.cpp(17,34): warning C4244:  'argument': conversion from 'int' to 'float32', possible loss of data
+C:\Users\USER\source\repos\Breakout\Breakout\src\Paddle.cpp(40,43): warning C4244:  'argument': conversion from 'int' to 'float32', possible loss of data
+C:\Users\USER\source\repos\Breakout\Breakout\src\Paddle.cpp(40,36): warning C4244:  'argument': conversion from 'int' to 'float32', possible loss of data
+C:\Users\USER\source\repos\Breakout\Breakout\src\Paddle.cpp(45,51): warning C4244:  'argument': conversion from 'const float32' to 'int', possible loss of data
+C:\Users\USER\source\repos\Breakout\Breakout\src\Paddle.cpp(45,28): warning C4244:  'argument': conversion from 'const float32' to 'int', possible loss of data
+  Breakout.vcxproj -> C:\Users\USER\source\repos\Breakout\x64\Debug\Breakout.exe
